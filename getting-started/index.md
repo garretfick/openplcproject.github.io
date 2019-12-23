@@ -1,9 +1,7 @@
 ---
 layout: reference
 title: Getting Started
-nav: start 
-redirect_from:
-  - /runtime
+nav: start
 ---
 
 The OpenPLC Project consists of three parts: Runtime, Editor and HMI Builder.

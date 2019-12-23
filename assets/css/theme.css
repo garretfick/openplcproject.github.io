@@ -1,0 +1,145 @@
+body {
+    background-color: #4e4e4e;
+    color: white;
+}
+
+/* Navigation Bar Theme */
+.navbar {
+    background-color: black;
+    height: 87px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar img {
+    height: 48px;
+    width: 120px;
+}
+
+nav {
+    text-align: right;
+    line-height: 87px;
+    height: 87px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .current {
+    color: #b7473a;
+}
+
+nav a:hover {
+    color: #ffd000;
+}
+
+@media only screen and (min-width: 600px) {
+    /*.navbar-logo {
+        padding-left: 200px;
+    }*/
+
+    .navbar-items {
+        padding-right: 200px;
+    }
+}
+
+/* Content main */
+section {
+    margin-top: 130px;
+    padding: 20px;
+    background-color: #353535;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #b7473a;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 100%;
+}
+
+article table {
+    margin: auto auto;
+    max-width: 100%;
+}
+
+code {
+    background-color: #353535;
+}
+
+.index-list ul {
+    list-style-type: none;
+}
+
+.index-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.index-list li {
+    line-height: 1;
+}
+
+.index-list h2 {
+    font-size: 1.1em;
+    line-height: 1;
+}
+
+.image-links {
+    padding-bottom: 50px;
+}
+
+.image-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-links img {
+    height: 100px;;
+}
+
+.image-label {
+    text-align: center;
+}
+
+.download-link img {
+    margin: 0;
+    width: 100px;
+}
+
+.download-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

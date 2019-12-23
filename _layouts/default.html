@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar row">
+        <div class="navbar-logo two columns">
+          <a href="/"><img src="/assets/img/openplc-white.gif" alt="Go to home page"/></a>
+        </div>
+        <nav class="navbar-items ten columns">
+
+          {% assign current = page.url | downcase | split: '/' %}
+
+          <ul>
+            <li><a href="/" {% if current.size == 0 %}class='current'{% endif %}>Home</a></li>
+            <li><a href="/getting-started" {% if current[1] == 'getting-started' %}class='current'{% endif %}>Getting Started</a></li>
+            <li><a href="/reference" {% if current[1] == 'reference' %}class='current'{% endif %}>Reference</a></li>
+            <li><a href="http://openplc.discussion.community/">Forum</a></li>
+            <li><a href="/blog" {% if current[1] == 'blog' %}class='current'{% endif %}>Blog</a></li>
+          </ul>
+        </nav class="two columns">
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        &copy; to me
+      </footer>
+    </div>
+  </body>
+</html>

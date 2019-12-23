@@ -6,6 +6,8 @@ layout: landing
 title: The OpenPLC Project
 ---
 
+TODO Add slider
+
 ## Designed to be Open Source
 
 The OpenPLC is the first fully functional standardized open source PLC, both

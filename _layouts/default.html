@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="/assets/css/skeleton.css">
     <link rel="stylesheet" href="/assets/css/theme.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-    <title>{{ page.title }}</title>
   </head>
   <body>
     <div class="container">
       <header class="navbar row">
         <div class="navbar-logo two columns">
-          <a href="/"><img src="/assets/img/openplc-white.gif" alt="Go to home page"/></a>
+          <a href="/">
+            <img src="/assets/img/openplc-white.gif" alt="Go to home page" class="header__logo"/>
+          </a>
         </div>
         <nav class="navbar-items ten columns">
 
@@ -26,12 +27,18 @@
             <li><a href="http://openplc.discussion.community/">Forum</a></li>
             <li><a href="/blog" {% if current[1] == 'blog' %}class='current'{% endif %}>Blog</a></li>
           </ul>
-        </nav class="two columns">
+        </nav>
       </header>
       {{ content }}
-      <footer>
-        &copy; to me
-      </footer>
     </div>
+    <footer class="row">
+      <div class="container">
+        <h3>Contact</h3>
+        <hr/>
+        <div>Thiago Alves</div>
+        <div>Mail: <a href="mailto:thiagoralves@gmail.com">thiagoralves@gmail.com</a></div>
+        <hr/>
+      </div>
+    </footer>
   </body>
 </html>

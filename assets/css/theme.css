@@ -15,6 +15,7 @@ code {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .navbar img {
@@ -53,6 +54,21 @@ nav .current {
 
 nav a:hover {
     color: #ffd000;
+}
+
+.header__logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #353535;
+    width: 100%;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px solid rgb(78, 78, 78);
 }
 
 @media only screen and (min-width: 600px) {

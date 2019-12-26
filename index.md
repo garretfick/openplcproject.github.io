@@ -6,7 +6,7 @@ layout: landing
 title: The OpenPLC Project
 ---
 
-TODO Add slider
+{% include carousel.html height="50" unit="%" duration="7" %}
 
 ## Designed to be Open Source
 
@@ -26,6 +26,10 @@ programming languages for PLCs.
 
 OpenPLC is mainly used on industrial and home automation, internet of things
 and SCADA research. You can check OpenPLC in action on the short video below.
+
+<div>
+    <iframe width="100%" height="520" src="https://www.youtube.com/embed/xpTBpFHyluw" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## OpenPLC Partners
 

@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+code {
+    border: none;
+}
+
 /* Navigation Bar Theme */
 .navbar {
     background-color: black;
@@ -61,6 +65,48 @@ nav a:hover {
     }
 }
 
+/* Content for the landing page */
+.landing-content {
+    margin-top: 130px;
+    padding: 20px;
+}
+
+.carousel__holder {
+    background-color: white;
+}
+.carousel__intro {
+    background-color: #353535;
+    position: absolute;
+    height: 100%;
+    padding: 0 30px;
+}
+.carousel__hello {
+    font-size: 51px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.carousel__desc {
+    
+}
+
+.carousel__getstarted {
+    text-transform: uppercase;
+    background-color: #b7473a;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.carousel__track {
+    left: 200px;
+}
+
 /* Content main */
 section {
     margin-top: 130px;
@@ -103,6 +149,7 @@ code {
 
 .index-list a {
     color: white;
+    color: white;
     text-decoration: none;
 }
 
@@ -133,8 +180,12 @@ code {
     text-align: center;
 }
 
+.download-link {
+    text-align: center;
+}
+
 .download-link img {
-    margin: 0;
+    /*margin: 0;*/
     width: 100px;
 }
 

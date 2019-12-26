@@ -103,8 +103,12 @@ nav a:hover {
     margin-top: 50px;
 }
 
-.carousel__track {
-    left: 200px;
+/*.carousel__track {
+    left: 1000px;
+}*/
+
+.carousel__activator {
+    visibility: hidden;
 }
 
 /* Content main */

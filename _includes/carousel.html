@@ -2,28 +2,11 @@
 {% assign letters = letterstring | split: ',' %}
 
 <div class="carousel__holder">
-    <div class="carousel">
+    <div class="carousel" id="carousel">
         {% for item in site.data.carousel.images %}
-          <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+        <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
-        {% for item in site.data.carousel.images %}
-          {% if forloop.index == forloop.length %}
-            {% assign nextindex = 0 %}
-          {% else %}
-            {% assign nextindex = forloop.index0 | plus: 1 %}
-          {% endif %}
-          {% assign nextletter = letters[nextindex] %}
-          {% if forloop.index0 == 0 %}
-            {% assign previndex = forloop.length | minus: 1 %}
-          {% else %}
-            {% assign previndex = forloop.index0 | minus: 1 %}
-          {% endif %}
-          {% assign prevletter = letters[previndex] %}
-          <!--<div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
-              <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
-          </div>-->
-        {% endfor %}
+
         <div class="carousel__track">
           <ul>
             {% for item in site.data.carousel.images %}
@@ -41,7 +24,7 @@
         <h2 class="carousel__hello">Hello, World.</h2>
         <div class="carousel__desc">Meet OpenPLC. The first fully open source</div>
         <div>Programmable Logic Controller</div>
-        <a class="carousel__getstarted" href="/getting_started">
+        <a class="carousel__getstarted" href="/getting-started">
             Get Started
         </a>
     </div>
@@ -120,6 +103,7 @@
   bottom: 20px;
   width: 100%;
   text-align: center;
+  left: 175px;
 }
 .carousel__indicator {
   height: 15px;
@@ -139,7 +123,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 350px;
   padding: 0;
   margin: 0;
   transition: -webkit-transform 0.5s ease 0s;
@@ -186,3 +170,34 @@
 }
 {% endfor %}
 </style>
+<script>
+    var advanceCarousel = function(){
+        // Which item in the carousel is currently selected?
+        var activators = document.querySelectorAll("#carousel input");
+        
+        var selectedIndex = 0;
+        for (var i = 0; i < activators.length; ++i) {
+            if (activators[i].checked) {
+                selectedIndex = i;
+                break
+            }
+        }
+
+        var toSelect = selectedIndex + 1;
+        if (toSelect >= activators.length) {
+            toSelect = 0;
+        }
+        activators[toSelect].checked = true;
+
+        setTimeout(advanceCarousel, 2000);
+    };
+
+    if (
+        document.readyState === "complete" ||
+        (document.readyState !== "loading" && !document.documentElement.doScroll)
+    ) {
+        setTimeout(advanceCarousel, 2000);
+    } else {
+        document.addEventListener("DOMContentLoaded", advanceCarousel);
+    }
+</script>

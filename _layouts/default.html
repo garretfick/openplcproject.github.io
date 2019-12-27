@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/skeleton.css">
-    <link rel="stylesheet" href="/assets/css/theme.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css?{{ site.github.build_revision }}">
+    <link rel="stylesheet" href="/assets/css/skeleton.css?{{ site.github.build_revision }}">
+    <link rel="stylesheet" href="/assets/css/theme.css?{{ site.github.build_revision }}">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -25,6 +25,7 @@
             <li><a href="/getting-started" {% if current[1] == 'getting-started' %}class='current'{% endif %}>Getting Started</a></li>
             <li><a href="/reference" {% if current[1] == 'reference' %}class='current'{% endif %}>Reference</a></li>
             <li><a href="http://openplc.discussion.community/">Forum</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </nav>
       </header>

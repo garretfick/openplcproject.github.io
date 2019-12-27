@@ -214,3 +214,8 @@ code {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* Blog */
+.posts__article_title {
+    font-size: 1.7em;
+}

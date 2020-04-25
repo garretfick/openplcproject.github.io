@@ -238,7 +238,6 @@ footer hr {
 
 /* Carousel */
 
-
 .carousel__holder {
   background-color: white;
 }
@@ -253,7 +252,6 @@ footer hr {
 .carousel__hello {
   font-size: 51px;
   font-weight: bold;
-  padding-top: 100px;
 }
 
 .carousel__desc {}
@@ -277,4 +275,27 @@ footer hr {
 
 .carousel__activator {
   visibility: hidden;
+}
+
+@media (max-width: 47.999em) {
+  .carousel {
+      display: none;
+  }
+
+  .carousel__hello {
+    padding-top: 0;
+  }
+
+  .carousel__intro {
+    height: unset;
+    position: unset;
+  }
+
+  .carousel__holder {
+    padding-bottom: 0 !important;
+  }
+
+  .carousel__getstarted {
+    margin-bottom: 1em;
+  }
 }

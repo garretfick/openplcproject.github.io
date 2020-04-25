@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on Raspberry Pi
 redirect_from:
   - /getting-started-rpi

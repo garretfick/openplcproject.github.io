@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on ESP8266
 redirect_from:
   - /getting-started-esp8266

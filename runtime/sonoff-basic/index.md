@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC and Sonoff
 redirect_from:
   - /getting-started-sonoff-basic

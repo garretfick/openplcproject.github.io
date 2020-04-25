@@ -1,5 +1,5 @@
 ---
-layout: reference-index
+layout: inset
 title: Programming Reference
 nav: start
 ---

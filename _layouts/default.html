@@ -2,42 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | upcase }} | openplcproject.com</title>
+    <link rel="stylesheet" href="/assets/css/pure-min.css">
+    <link rel="stylesheet" href="/assets/css/grids-responsive-min.css">
     <link rel="stylesheet" href="/assets/css/theme.css">
+    <!--<link rel="stylesheet" href="/assets/css/theme.css">-->
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <header class="navbar row">
-        <div class="navbar-logo two columns">
-          <a href="/">
-            <img src="/assets/img/openplc-white.gif" alt="Go to home page" class="header__logo"/>
-          </a>
-        </div>
-        <nav class="navbar-items ten columns">
-
-          {% assign current = page.url | downcase | split: '/' %}
-
-          <ul>
-            <li><a href="/" {% if current.size == 0 %}class='current'{% endif %}>Home</a></li>
-            <li><a href="/getting-started" {% if current[1] == 'getting-started' %}class='current'{% endif %}>Getting Started</a></li>
-            <li><a href="/reference" {% if current[1] == 'reference' %}class='current'{% endif %}>Reference</a></li>
-            <li><a href="http://openplc.discussion.community/">Forum</a></li>
-          </ul>
-        </nav>
-      </header>
+    {% include menu.html %}
+    <main>
       {{ content }}
-    </div>
-    <footer class="row">
-      <div class="container">
-        <h3>Contact</h3>
-        <hr/>
-        <div>Thiago Alves</div>
-        <div>Mail: <a href="mailto:thiagoralves@gmail.com">thiagoralves@gmail.com</a></div>
-        <hr/>
-      </div>
-    </footer>
+    </main>
+    {% include footer.html %}
   </body>
+  <script src="/assets/js/menu.js"></script>
 </html>

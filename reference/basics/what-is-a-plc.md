@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: What is a PLC?
 redirect_from:
   - /reference-what-is-a-plc

@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: landing
 title: The OpenPLC Project
 ---
@@ -39,4 +36,6 @@ FreeWave's new Industrial IoT (IIoT) programmable radio platform, combined
 with the power of OpenPLC, makes Fog Computing, M2M and the Intelligent IIoT a
 reality.
 
-[![](freewave.webp)](http://www.freewave.com)
+<a href="http://www.freewave.com">
+  <img src="freewave.webp" alt="" style="margin: 0 auto; display: block; max-height: 80%; max-width: 100%;">
+</a>

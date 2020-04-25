@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC and Modbus Slaves
 redirect_from:
   - /getting-started-modbus-io

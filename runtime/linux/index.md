@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on Linux
 redirect_from:
   - /getting-started-linux

@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Introduction to Ladder Logic
 redirect_from:
   - /reference-introduction-to-ladder

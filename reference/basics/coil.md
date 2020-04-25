@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Ladder Logic Coil
 redirect_from:
   - /reference-coil

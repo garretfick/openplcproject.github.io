@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on UniPi
 redirect_from:
   - /getting-started-unipi

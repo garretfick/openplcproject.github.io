@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Ladder Logic Contact
 redirect_from:
   - /reference-contact

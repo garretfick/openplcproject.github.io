@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Installing ScadaBR
 redirect_from:
   - /reference-installing-scadabr

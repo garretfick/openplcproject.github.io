@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on Windows
 redirect_from:
   - /getting-started-windows

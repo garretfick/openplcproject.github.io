@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Modbus Address Mapping
 redirect_from:
   - /scada

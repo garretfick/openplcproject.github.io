@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on Arduino
 redirect_from:
   - /getting-started-arduino

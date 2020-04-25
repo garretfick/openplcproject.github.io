@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Creating Your First Project
 redirect_from:
   - /reference-your-first-project

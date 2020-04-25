@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: Uploading your Project to OpenPLC
 redirect_from:
   - /reference-uploading-your-project

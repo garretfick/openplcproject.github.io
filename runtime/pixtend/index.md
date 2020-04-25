@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on PiXtend
 redirect_from:
   - /copy-of-getting-started-unipi

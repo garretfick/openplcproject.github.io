@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC on Neuron
 redirect_from:
   - /getting-started-neuron

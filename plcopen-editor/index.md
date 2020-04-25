@@ -1,5 +1,5 @@
 ---
-layout: reference
+layout: inset
 title: OpenPLC Editor
 nav: start 
 ---

@@ -1,5 +1,7 @@
 # openplcproject.github.io
 
+[![Build Status](https://travis-ci.com/openplcproject/openplcproject.github.io.svg?branch=master)](https://travis-ci.com/openplcproject/openplcproject.github.io)
+
 This project is the source for the OpenPLC Project's website, available
 at openplcproject.com. The site is built using the fantastic Jekyll static
 site generator.

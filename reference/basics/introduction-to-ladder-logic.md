@@ -32,7 +32,7 @@ Therefore, with the circuit above the lamp turns on only when PB1 or PB2 is pres
 
 ![](ladder_simple_pressed.webp)
 
-You can build the same LD circuit for OpenPLC using the [OpenPLC Editor](/editor). This
+You can build the same LD circuit for OpenPLC using the [OpenPLC Editor](/plcopen-editor). This
 program will have the same behavior as the ladder diagram explained above.
 
 ![](first_project.webp)

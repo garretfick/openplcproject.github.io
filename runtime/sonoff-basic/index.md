@@ -69,7 +69,7 @@ Finally, download the OpenPLC firmware for the Sonoff Basic, unzip it and open i
 
 <div class="download-link">
     <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_sonoff_v3.zip?raw=true">
-      <img src="/assets/img/download.webp"/>
+      <img src="/assets/img/download.webp" alt=""/>
       <span>Sonoff Basic Firmware</span>
     </a>
 </div>

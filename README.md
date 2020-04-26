@@ -14,6 +14,6 @@ site generator.
 
 ## Deploy
 
-TheGitHub repository hosted on openplc/openplcproject.github.io is configured
+The GitHub repository hosted on openplcproject/openplcproject.github.io is configured
 to automatically publish changes to the master branch. There is nothing you
 need to do.

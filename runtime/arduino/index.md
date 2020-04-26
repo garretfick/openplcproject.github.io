@@ -28,7 +28,7 @@ your board, unzip it, and upload it to your Arduino using the Arduino IDE.
     <div class="six columns">
         <div class="download-link">
             <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_Uno_v3.zip?raw=true">
-            <img src="/assets/img/download.webp"/>
+            <img src="/assets/img/download.webp" alt=""/>
             <span>Uno | Pro | Pro Mini | Nano | Micro | Lilypad | Zero</span>
             </a>
         </div>
@@ -36,7 +36,7 @@ your board, unzip it, and upload it to your Arduino using the Arduino IDE.
     <div class="six columns">
         <div class="download-link">
             <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_Mega_v3.zip?raw=true">
-            <img src="/assets/img/download.webp"/>
+            <img src="/assets/img/download.webp" alt=""/>
             <span>Mega | ADK | Due</span>
             </a>
         </div>
@@ -76,7 +76,7 @@ with the current (OpenPLC v3) version of the Runtime as this will not work.
     <div class="six columns">
         <div class="download-link">
             <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_UNO_fw.zip?raw=true">
-            <img src="/assets/img/download.webp"/>
+            <img src="/assets/img/download.webp" alt=""/>
             <span>Uno | Pro | Pro Mini | Nano | Micro | Lilypad | Zero</span>
             </a>
         </div>
@@ -84,7 +84,7 @@ with the current (OpenPLC v3) version of the Runtime as this will not work.
     <div class="six columns">
         <div class="download-link">
             <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_MEGA_fw.zip?raw=true">
-            <img src="/assets/img/download.webp"/>
+            <img src="/assets/img/download.webp" alt=""/>
             <span>Mega | ADK | Due</span>
             </a>
         </div>

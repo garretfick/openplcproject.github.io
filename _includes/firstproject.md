@@ -9,7 +9,7 @@ connected together. The button is attached to %IX0.0 and the coil is attached
 to %QX0.0. When the button is pressed and released, the coil is energized and
 remains on for 2 seconds, and then turns off.
 
-![](/runtime/img/myprogram.webp)
+<img src="/runtime/img/myprogram.webp" alt=""/>
 
 Download the project below and open it on [OpenPLC Editor](/plcopen-editor).
 Click on Generate
@@ -18,7 +18,7 @@ Then upload the ST file to the OpenPLC using the web interface.
 
 <div class="download-link">
     <a href="https://docs.google.com/uc?export=download&confirm=no_antivirus&id=1fv8XZA5306ZhrdAclzRdoZdv0E6_EUzA">
-      <img src="/assets/img/download.webp"/>
+      <img src="/assets/img/download.webp" alt=""/>
       <span>Hello World</span>
     </a>
 </div>

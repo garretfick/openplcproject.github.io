@@ -60,12 +60,10 @@ article img {
   main {
     padding: 0;
   }
-
   .inset {
     margin: 0 1em;
   }
 }
-
 
 .image-links {
   padding-bottom: 50px;
@@ -112,6 +110,7 @@ pre {
 }
 
 /* Responsive header menu */
+
 .pure-menu-horizontal {
   margin-top: 1em;
 }
@@ -194,18 +193,25 @@ nav a:hover {
 }
 
 @media (max-width: 47.999em) {
-
   .custom-menu-3 {
-      text-align: left;
+    text-align: left;
   }
-
   .custom-toggle {
-      display: block;
+    display: block;
   }
+}
 
+/* Blog elements */
+.author {
+  border-radius: 50%;
+  display: unset;
+  margin: unset;
+  max-height: unset;
+  max-width: unset;
 }
 
 /* Header elements */
+
 nav {
   background-color: black;
 }
@@ -279,22 +285,18 @@ footer hr {
 
 @media (max-width: 47.999em) {
   .carousel {
-      display: none;
+    display: none;
   }
-
   .carousel__hello {
     padding-top: 0;
   }
-
   .carousel__intro {
     height: unset;
     position: unset;
   }
-
   .carousel__holder {
     padding-bottom: 0 !important;
   }
-
   .carousel__getstarted {
     margin-bottom: 1em;
   }

@@ -37,5 +37,5 @@ with the power of OpenPLC, makes Fog Computing, M2M and the Intelligent IIoT a
 reality.
 
 <a href="http://www.freewave.com">
-  <img src="freewave.webp" alt="" style="margin: 0 auto; display: block; max-height: 80%; max-width: 100%;">
+  <img src="/assets/img/freewave.png" alt="" style="margin: 0 auto; display: block; max-height: 80%; max-width: 100%;">
 </a>

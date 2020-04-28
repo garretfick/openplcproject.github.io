@@ -18,7 +18,7 @@ Then upload the ST file to the OpenPLC using the web interface.
 
 <div class="download-link">
     <a href="https://docs.google.com/uc?export=download&confirm=no_antivirus&id=1fv8XZA5306ZhrdAclzRdoZdv0E6_EUzA">
-      <img src="/assets/img/download.webp" alt=""/>
+      <img src="/assets/img/download.png" alt=""/>
       <span>Hello World</span>
     </a>
 </div>

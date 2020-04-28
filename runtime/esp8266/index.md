@@ -47,7 +47,7 @@ on the Arduino IDE.
 
 <div class="download-link">
     <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Firmware/OpenPLC_esp8266_v3.zip?raw=true">
-      <img src="/assets/img/download.webp" alt=""/>
+      <img src="/assets/img/download.png" alt=""/>
       <span>ESP8266 Firmware</span>
     </a>
 </div>

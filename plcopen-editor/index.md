@@ -13,7 +13,7 @@ OpenPLC Editor is a software that lets you write PLC programs for the OpenPLC ru
         <div class="six columns">
             <div class="download-link">
                 <a href="https://drive.google.com/file/d/1SHNx2QYXn8HnZJ5eJ62uZKLzpGQn5cgs/view?usp=sharing">
-                    <img src="/assets/img/download.webp" alt=""/>
+                    <img src="/assets/img/download.png" alt=""/>
                     <span>OpenPLC Editor v1.0 for Windows</span>
                 </a>
             </div>
@@ -21,7 +21,7 @@ OpenPLC Editor is a software that lets you write PLC programs for the OpenPLC ru
         <div class="six columns">
             <div class="download-link">
                 <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Software/OpenPLC_Editor%20v1.0%20-%20Linux.zip?raw=true">
-                <img src="/assets/img/download.webp" alt=""/>
+                <img src="/assets/img/download.png" alt=""/>
                 <span>OpenPLC Editor v1.0 for Linux</span>
                 </a>
             </div>

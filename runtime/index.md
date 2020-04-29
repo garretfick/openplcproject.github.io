@@ -16,7 +16,7 @@ your I/O points or use them as your main soft-PLC I/O.
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="http://www.freewave.com/products/zumlink-900-series/">
       <img src="freewave-zumlink-radio.png" alt=""/>
-      <div class="image-label">FreeWave Zumlink Radio <span class="external">⭧</span></div>
+      <div class="image-label">FreeWave Zumlink Radio</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
@@ -43,7 +43,7 @@ your I/O points or use them as your main soft-PLC I/O.
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="https://www.freewave.com/products/zumiq-edge-computer/">
       <img src="freewave-zumiq.png" alt=""/>
-      <div class="image-label">FreeWave ZumIQ<span class="external">⭧</span></div>
+      <div class="image-label">FreeWave ZumIQ</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">

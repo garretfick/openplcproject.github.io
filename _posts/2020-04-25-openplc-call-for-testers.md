@@ -83,5 +83,5 @@ are things you needed to change, please also let us know by
 
 We plan some kind of formal release once we complete testing and can write the
 necessary documentation. At this point, we don't have a defined set of tasks
-nor a timeline. I'm personally aiming to release before the end of February
+nor a timeline. I'm personally aiming to release before the end of July
 2020, but it will only happen when things are ready.

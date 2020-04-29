@@ -9,7 +9,7 @@ connected together. The button is attached to %IX0.0 and the coil is attached
 to %QX0.0. When the button is pressed and released, the coil is energized and
 remains on for 2 seconds, and then turns off.
 
-<img src="/runtime/img/myprogram.webp" alt=""/>
+<img src="/runtime/img/myprogram.png" alt=""/>
 
 Download the project below and open it on [OpenPLC Editor](/plcopen-editor).
 Click on Generate

@@ -47,6 +47,6 @@ while the driver is applied.
 Below you will find the OpenPLC I/O mapping for the UniPi board. The mapping
 should be the same across all the different board revisions.
 
-![](pinout.webp)
+![](pinout.png)
 
 {% include firstproject.md %}

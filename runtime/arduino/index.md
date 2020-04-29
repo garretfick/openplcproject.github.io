@@ -49,7 +49,7 @@ After programming your Arduino with OpenPLC's firmware, you now need to add
 it to the main Runtime. Launch OpenPLC Runtime on your host, log in on the
 web interface, go to Slave Devices on the menu and click on "Add new device".
 
-![](slavedevices.webp)
+![](slavedevices.png)
 
 On the new screen that appears, fill out the name for your slave device (it
 can be anything, but just please avoid non-english characters like ç, é, ó, ñ),
@@ -57,7 +57,7 @@ select the proper Arduino board you have connected under Device Type and the
 right COM Port. Everything else should be filled up for you automatically
 depending on the selection of your Device Type.
 
-![](adddevice.webp)
+![](adddevice.png)
 
 Click on "Save device" and you're good to go! Just start the PLC and you will
 see the Rx/Tx LEDs of your Arduino board blinking constantly. This means that
@@ -98,6 +98,6 @@ The table was built for OpenPLC v2, but it is still valid for OpenPLC v3,
 except that the slave address on v3 starts at position 100 (e.g. %IX100.0,
 %IX100.1, etc).
 
-![](arduinouno.webp)
+![](arduinouno.png)
 ​
-![](arduinomega.webp)
+![](arduinomega.png)

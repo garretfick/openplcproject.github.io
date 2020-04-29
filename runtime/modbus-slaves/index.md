@@ -23,7 +23,7 @@ the page to have it installed and then move to the next step.
 To add a slave device, launch OpenPLC Runtime on your host, log in, go to
 Slave Devices on the menu and click on "Add new device".
 
-![](/runtime/img/slavedevices.webp)
+![](/runtime/img/slavedevices.png)
 
 On the new screen that appears, fill out the name for your slave device (it
 can be anything, but just please avoid non-english characters like ç, é, ó, ñ),
@@ -41,7 +41,7 @@ range, which means how many registers after the first one you want to be
 read/written. These registers will then be mapped to OpenPLC internal
 variables, located at %IX100.0, %QX100.0, and so on...
 
-![](/runtime/img/adddevice.webp)
+![](/runtime/img/adddevice.png)
 
 Click on "Save device" and you're good to go! Just start the PLC and your
 board will be communicating over WiFi with OpenPLC Runtime.
@@ -54,7 +54,7 @@ slave devices at the same time, and they all add up together on the address
 space. Below you can see a list of three ESP8266 devices added up together,
 and the respective address space reserved for them.
 
-![](/runtime/img/modbusmapping.webp)
+![](/runtime/img/modbusmapping.png)
 
 From the table you can see the specific OpenPLC addresses for each device,
 where it starts and where it ends. For example, each ESP8266 on this list has

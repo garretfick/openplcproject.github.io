@@ -37,7 +37,7 @@ localhost:8080
 Once you access OpenPLC web interface, you should see in your browser window
 a login page like this:
 
-![](/runtime/img/login.webp)
+![](/runtime/img/login.png)
 
 The default username and password is openplc (login) and openplc (password).
 This means that the first thing you must do after logging in for the first
@@ -45,7 +45,7 @@ time is change the default username and password! It is very easy to do that.
 Just go to the Users menu, click on the OpenPLC User and change the information
 as you like.
 
-![](/runtime/img/edituser.webp)
+![](/runtime/img/edituser.png)
 
 Once you save the changes you will be prompted to login again. Just login with your new credentials and you will be good to go!
 

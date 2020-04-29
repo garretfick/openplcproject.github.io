@@ -24,7 +24,7 @@ need to download it separately if you're installing this on your system.
 Once OpenPLC Runtime is installed, you can start it by going to the start
 menu and launching the OpenPLC Runtime shortcut.
 
-![](startmenu.webp)
+![](startmenu.png)
 
 ## Troubleshooting
 
@@ -43,7 +43,7 @@ fix general installation problems.
 
 If rebasing OpenPLC didn't work, there might be something else affecting your installation, and that's usually Cygwin. In that case, a manual Cygwin installation might be required. To install Cygwin manually, download the installer from [https://cygwin.com/install.html](https://cygwin.com/install.html). There are two options: setup-x86_64.exe for 64-bit machines and setup-x86.exe for 32-bit machines. Most likely your computer is a 64-bit machine, so download setup-x86_64.exe and run it. The installation process is very simple. On the first screen, select "Install from Internet", and on the next screen, make sure you install it inside the OpenPLC folder. That should be C:\Users\[your-user-name]\OpenPLC\Runtime. This is very important! If you install Cygwin on another directory, this procedure won't work. On the next screen, leave the Local Package Directory as default. When you reach the Available Download Sites list, pick the first one and hit next. This will take you to the Select Packages list. On this list, select View Full and search for the packet git. The table will be populated with several packages related to git. Select the one named git (it is just plain git, not cgit or git-cvs or git-gui). With that package selected, on the drop-down box inside the column "New", select the latest version available for git (at this time of writing it is 2.17.0-1) and hit next.
 
-![](selectpackages.webp)
+![](selectpackages.png)
 
 You will see a summary of all items to be installed. Hit next and let the installation begin. Once Cygwin had finished installing, try launching "Rebase OpenPLC" again from the start menu.
 
@@ -81,7 +81,7 @@ localhost:8080
 ​
 Once you access OpenPLC web interface, you should see in your browser window a login page like this:
 
-![](/runtime/img/login.webp)
+![](/runtime/img/login.png)
 
 The default username and password is openplc (login) and openplc (password).
 This means that the first thing you must do after logging in for the first
@@ -89,7 +89,7 @@ time is **change the default username and password**! It is very easy to do
 that. Just go to the Users menu, click on the OpenPLC User and change the
 information as you like.
 
-![](/runtime/img/edituser.webp)
+![](/runtime/img/edituser.png)
 
 Once you save the changes you will be prompted to login again. Just login with
 your new credentials and you will be good to go!

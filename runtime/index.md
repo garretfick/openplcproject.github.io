@@ -15,19 +15,19 @@ your I/O points or use them as your main soft-PLC I/O.
 <div class="pure-g image-links">
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="http://www.freewave.com/products/zumlink-900-series/">
-      <img src="freewave-zumlink-radio.webp" alt=""/>
+      <img src="freewave-zumlink-radio.png" alt=""/>
       <div class="image-label">FreeWave Zumlink Radio <span class="external">⭧</span></div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="raspberry-pi">
-      <img src="raspberry-pi.webp" alt=""/>
+      <img src="raspberry-pi.png" alt=""/>
       <div class="image-label">Raspberry Pi</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="pixtend">
-      <img src="pixtend.webp" alt=""/>
+      <img src="pixtend.png" alt=""/>
       <div class="image-label">PiXtend</div>
     </a>
   </div>
@@ -36,19 +36,19 @@ your I/O points or use them as your main soft-PLC I/O.
 <div class="pure-g image-links">
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="unipi">
-      <img src="unipi-industrial-platform.webp" alt=""/>
+      <img src="unipi-industrial-platform.png" alt=""/>
       <div class="image-label">UniPi Industrial Platform</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="https://www.freewave.com/products/zumiq-edge-computer/">
-      <img src="freewave-zumiq.webp" alt=""/>
+      <img src="freewave-zumiq.png" alt=""/>
       <div class="image-label">FreeWave ZumIQ<span class="external">⭧</span></div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="unipi-neuron">
-      <img src="unipi-neuron-plc.webp" alt=""/>
+      <img src="unipi-neuron-plc.png" alt=""/>
       <div class="image-label">UniPi Neuron PLC</div>
     </a>
   </div>
@@ -59,13 +59,13 @@ your I/O points or use them as your main soft-PLC I/O.
 <div class="pure-g image-links">
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="windows">
-      <img src="windows.webp" alt=""/>
+      <img src="windows.png" alt=""/>
       <div class="image-label">Windows</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="linux">
-      <img src="linux.webp" alt=""/>
+      <img src="linux.png" alt=""/>
       <div class="image-label">Linux</div>
     </a>
   </div>
@@ -76,19 +76,19 @@ your I/O points or use them as your main soft-PLC I/O.
 <div class="pure-g image-links">
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="modbus-slaves">
-      <img src="modbus-slave-devices.webp" alt=""/>
+      <img src="modbus-slave-devices.png" alt=""/>
       <div class="image-label">Modbus Slave Devices</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="esp8266">
-      <img src="esp8266.webp" alt=""/>
+      <img src="esp8266.png" alt=""/>
       <div class="image-label">ESP8266</div>
     </a>
   </div>
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="arduino">
-      <img src="arduino.webp" alt=""/>
+      <img src="arduino.png" alt=""/>
       <div class="image-label">Arduino and compatible boards</div>
     </a>
   </div>
@@ -97,7 +97,7 @@ your I/O points or use them as your main soft-PLC I/O.
 <div class="pure-g image-links">
   <div class="pure-u-1 pure-u-md-1-3">
     <a href="sonoff-basic">
-      <img src="sonoff-basic.webp" alt=""/>
+      <img src="sonoff-basic.png" alt=""/>
       <div class="image-label">Sonoff Basic</div>
     </a>
   </div>

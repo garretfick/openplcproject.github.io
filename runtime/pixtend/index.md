@@ -30,11 +30,11 @@ enable the PiXtend driver, go to the "Hardware" section and from the popup
 menu, select either "PiXtend" or "PiXtend 2s" depending on your board. Click
 on "Save changes" and wait for a little bit while the driver is applied.
 
-![](/runtime/img/selecthw.webp)
+![](/runtime/img/selecthw.png)
 
 Below you will find the OpenPLC I/O mapping for the PiXtend board. The mapping
 should be the same across all the different board revisions.
 
-![](pinout.webp)
+![](pinout.png)
 
 {% include firstproject.md %}

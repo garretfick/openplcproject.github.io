@@ -19,7 +19,7 @@ Any PLC mainly consists of a CPU, memory areas (called address space in OpenPLC)
 input/output circuits. Internally, a PLC works by continually scanning a program. This scan
 cycle consists of 3 important steps: check inputs, execute program, and update outputs.
 
-![](scan_cycle.webp "Scan Cycle")
+![](scan_cycle.png "Scan Cycle")
 
 All a PLC will do in its whole life is execute those three steps. On the first step
 it takes a look at each input and saves that information. After that, the PLC executes

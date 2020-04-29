@@ -149,11 +149,11 @@ nav a:hover {
 }
 
 .custom-toggle {
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 15px;
+  right: 15px;
   display: none;
 }
 

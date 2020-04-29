@@ -12,6 +12,9 @@ site generator.
 1. Run `bundle install`
 1. Run `bundle exec jekyll serve`
 
+You can (and should) run simple some simple tests with `bundle exec rake test`
+to check for common problems.
+
 ## Deploy
 
 The GitHub repository hosted on openplcproject/openplcproject.github.io is configured

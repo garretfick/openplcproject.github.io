@@ -13,6 +13,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 2.5em;
+  margin-top: 0.25em;
 }
 
 h2 {
@@ -56,12 +57,21 @@ article img {
   margin: 0 10em;
 }
 
+@media (max-width: 70.999em) {
+  .inset {
+    margin: 0 3.5em;
+  }
+}
+
 @media (max-width: 47.999em) {
   main {
     padding: 0;
   }
+  article {
+    padding: 0.5em;
+  }
   .inset {
-    margin: 0 1em;
+    margin: 0 0.5em;
   }
 }
 
@@ -140,7 +150,7 @@ nav a:hover {
 }
 
 .custom-wrapper.open {
-  height: 14em;
+  height: 15.5em;
 }
 
 .custom-menu-3 {
@@ -192,6 +202,20 @@ nav a:hover {
   transform: rotate(-45deg);
 }
 
+@media (min-width: 47.999em) and (max-width:70.999em) {
+  .pure-menu-horizontal .pure-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .pure-menu-horizontal {
+    margin-top: 1em;
+  }
+  .pure-menu-link {
+    padding: 0.5em;
+  }
+}
+
 @media (max-width: 47.999em) {
   .custom-menu-3 {
     text-align: left;
@@ -202,6 +226,7 @@ nav a:hover {
 }
 
 /* Blog elements */
+
 .author {
   border-radius: 50%;
   display: unset;

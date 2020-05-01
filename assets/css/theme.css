@@ -22,6 +22,11 @@ h2 {
   letter-spacing: 0.05em;
 }
 
+h3 {
+  letter-spacing: 0.05em;
+  font-weight: normal;
+}
+
 p {
   font-size: 1.1em;
   line-height: 1.5em;
@@ -38,6 +43,37 @@ th, td {
 tr {
   padding: 0.25em 0;
 }
+
+code {
+  color: orange;
+  background-color: #4e4e4e;
+}
+
+.listingblock .title {
+  font-family: 'Anton', sans-serif !important;
+  font-weight: lighter;
+  font-size: 0.75em;
+}
+
+.admonitionblock {
+  padding: 1em;
+  margin: 1em;
+  background-color: #4e4e4e;
+}
+
+.important .title, .tip .title {
+  min-width: 6em;
+  border-right: 1px solid #252525;
+}
+
+.important .title::before {
+  content: "❗ ";
+}
+
+.tip .title::before {
+  content: "💡 ";
+}
+
 
 /* Common content pages */
 

@@ -1,7 +1,7 @@
 
 ## My First Project
 
-The [Reference](/reference) menu on this website has a nice tutorial that
+The [Reference](/reference/current) menu on this website has a nice tutorial that
 teaches you [how to create your first project](/reference-your-first-project).
 However, if you're in a hurry, you can download the official Hello World
 project, which is basically one rung, a button, a timer and a coil, all

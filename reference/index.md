@@ -88,3 +88,4 @@ nav: start
 
 - [Installing ScadaBR](scadabr)
 - [Modbus Address Mapping](modbus)
+- [DNP3 Outstation](dnp3s)

@@ -22,7 +22,7 @@ OpenPLC supports all common Modbus function codes:
 
 ## Binding Modbus Slave to PLC Addresses
 
-OpenPLC operates as a block for Modbus tables. [PLC addresses](/reference/plc-addressing) binding (the
+OpenPLC operates as a block for Modbus tables. [PLC address](/reference/plc-addressing) binding (the
 Modus map) is based on the hierarchical address value, the data width,
 and the direction.
 
@@ -36,6 +36,24 @@ and the direction.
 | Analog Output Holding Registers  | Analog Outputs  | %QW0 - %QW99     | 0 - 1023            | 16 bits   | 0 - 65535 | RW   |
 
 </div>
+
+Discrete output coil and discrete input contact binding are based on the
+the two-part PLC address, without unused Modbus data addresses. The
+least-significant part of the PLC address has a range 0 to 7, therefore, a
+little math is needed to translate between PLC addresses and Modbus data
+addresses.
+
+Given the Modbus data address, the PLC address is determined as:
+
+```
+msp := int(modbus_data_address / 8)
+lsp := modbus_data_address mod 8
+hierarchical_address = str(msp) + "." " str(lsp)
+```
+
+For example, if the Modbus address for a discrete output coil is 22, then the
+most significant part is 2 (22 / 8) and the least significant part is 6
+(22 mod 8). Therefore, the PLD address is `%Q2.6`.
 
 Memory PLC addresses are mapped to higher-index analog output registers.
 

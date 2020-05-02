@@ -1,6 +1,8 @@
 ---
 layout: inset
 title: Modbus Slave
+redirect_from:
+  - /scada
 --- 
 
 OpenPLC can be configured as a Modbus slave (server). A Modbus slave is

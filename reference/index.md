@@ -84,8 +84,18 @@ nav: start
 - Less Than or Equal (LE)
 - Not Equal (NE)
 
+## Configuration
+
+- [Configuration](configuration)
+
+## Communications and Services
+
+- [PLC Addressing](plc-addressing)
+- [Modbus Slave](modbus-slave)
+- [Modbus Master](modbus-master)
+- [DNP3 Outstation](dnp3-outstation)
+- [Persistent Storage](persistent-storage)
+
 ## SCADA
 
 - [Installing ScadaBR](scadabr)
-- [Modbus Address Mapping](modbus)
-- [DNP3 Outstation](dnp3s)

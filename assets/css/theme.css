@@ -36,14 +36,6 @@ a {
   color: #5274C0;
 }
 
-th, td {
-  padding: 0 0.5em;
-}
-
-tr {
-  padding: 0.25em 0;
-}
-
 code {
   color: orange;
   background-color: #4e4e4e;
@@ -61,6 +53,10 @@ code {
   background-color: #4e4e4e;
 }
 
+.admonitionblock table, .admonitionblock td, .admonitionblock th {
+  border: none;
+}
+
 .important .title, .tip .title {
   min-width: 6em;
   border-right: 1px solid #252525;
@@ -74,6 +70,32 @@ code {
   content: "💡 ";
 }
 
+table {
+  padding: 1em;
+  margin: 1em;
+}
+
+table, td, th {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0 0.5em;
+}
+
+tr {
+  padding: 0.25em 0;
+}
+
+.note {
+  padding: 0 2em;
+  font-size: smaller;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
 
 /* Common content pages */
 

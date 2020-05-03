@@ -23,10 +23,13 @@ This information is defined in the `config.ini` configuration file in the
 
 ## Binding DNP3 Objects to PLC Addresses
 
-OpenPLC supports a flexible binding between [PLC addresses](/reference/plc-addressing) and DNP3
-points.
+OpenPLC supports a flexible binding between
+[PLC addresses](/reference/plc-addressing) and DNP3 points.
 
-Each `bind_location` key defines a one-way binding between a PLC address and DNP3 point. The direction of the binding depends on the DNP3
+![](outstation-overview.svg)
+
+Each `bind_location` key defines a one-way binding between a PLC address and
+DNP3 point. The direction of the binding depends on the DNP3
 group (described below).
 
 The value of `bind_location` is an order-sensitive, comma-separated triple

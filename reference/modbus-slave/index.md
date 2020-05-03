@@ -26,6 +26,8 @@ OpenPLC operates as a block for Modbus tables. [PLC address](/reference/plc-addr
 Modus map) is based on the hierarchical address value, the data width,
 and the direction.
 
+![](slave-overview.svg)
+
 <div class="table-wrapper" markdown="block">
 
 | Modbus Table                     | Usage           | PLC Address      | Modbus Data Address | Data Size | Range  | Access† |

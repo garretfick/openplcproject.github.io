@@ -28,6 +28,8 @@ OpenPLC binds ranges of [PLC addresses](/reference/plc-addressing) to Modbus
 addresses. You define an offset (start address) and number of PLC addresses
 to bind.
 
+![](master-overview.svg)
+
 Up to 400 PLC addresses per Modbus table can be bound to the Modbus master.
 Mapping to a particular Modbus table (for example discrete output coils)
 is determined based on the data width, direction, and an offset.

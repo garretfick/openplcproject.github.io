@@ -32,6 +32,8 @@ Formally, a PLC address can be expressed in Backus Naur Form.
 <oct-digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7"
 ```
 
+## PLC Addressing in OpenPLC
+
 In OpenPLC, the storage class is a "hint" as to the usage. The precise
 meaning depends on implementation of a particular communication module.
 Generally, the storage class has the following interpretation:
@@ -69,3 +71,10 @@ contain a period (`.`) and must be no more than 1023.
 
 {%include tip.html content="The limitation for the maximum hierarchical
 address index will be relaxed in the future." %}
+
+## Examples
+
+In this section, we give some examples of PLC addresses for OpenPLC.
+
+
+

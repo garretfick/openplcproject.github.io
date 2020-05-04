@@ -74,7 +74,22 @@ address index will be relaxed in the future." %}
 
 ## Examples
 
-In this section, we give some examples of PLC addresses for OpenPLC.
+The following are all valid examples of PLC addresses in OpenPLC.
 
+```
+%IX0.0
+%IX0.7
+%IB1
+%QD100
+%ML10
+```
 
+The following are invalid examples of PLC addresses in OpenPLC for the stated
+reason.
 
+| Invalid Example | Reason                                                  |
+|-----------------|---------------------------------------------------------|
+| `%IX0.8`        | The least significant index is greater than 7.          |
+| `%IX0.0.1`      | Three part hierarchy is not permitted address.          |
+| `%IB1.1`        | Two part hierarchy is only permitted for `X` data size. |
+| `%QL1024`       | Maximum index must be less than 1024.                   |

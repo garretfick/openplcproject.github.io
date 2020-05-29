@@ -20,3 +20,6 @@ to check for common problems.
 The GitHub repository hosted on openplcproject/openplcproject.github.io is configured
 to automatically publish changes to the master branch. There is nothing you
 need to do.
+
+Builds automatically run a TravisCI build. The automated build checks for valid HTML
+and other common problems.

@@ -16,7 +16,7 @@ two vertical rails and rungs between them. For example, take a look at this typi
 
 ![](ladder_simple.png)
 
-This example shows a ladder diagram with two pushbuttons (PB1 and PB2) and a lamp. For the lamp to
+This example shows a ladder diagram with two push buttons (PB1 and PB2) and a lamp. For the lamp to
 turn on, it must be connected to both negative and positive power rails. On this diagram, the lamp
 is only connected to the negative power rail, and therefore, it remains off. However, by
 pressing PB1 or PB2, a path is formed from the positive power rail to the lamp, which turns it on. This

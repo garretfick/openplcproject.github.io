@@ -52,7 +52,7 @@ web interface, go to Slave Devices on the menu and click on "Add new device".
 ![](slavedevices.png)
 
 On the new screen that appears, fill out the name for your slave device (it
-can be anything, but just please avoid non-english characters like ç, é, ó, ñ),
+can be anything, but just please avoid non-English characters like ç, é, ó, ñ),
 select the proper Arduino board you have connected under Device Type and the
 right COM Port. Everything else should be filled up for you automatically
 depending on the selection of your Device Type.

@@ -90,7 +90,7 @@ You will need to solder a pin header on the five pins highlighted on the picture
 
 ![](pinnames.png)
 
-You don't need to connect the GPIO14 pin to reprogram the Sonoff Basic, just the GND, TX, RX and 3.3V pins. Now before connecting the USB to Serial adapter to your computer, press and hold the Sonnof Basic button, and then connect the adapter. If the button is pressed during power on, the ESP8266 inside the Sonoff Basic enters into serial bootloader mode. This means that the device is ready to accept a new firmware over the TX/RX pins.
+You don't need to connect the GPIO14 pin to reprogram the Sonoff Basic, just the GND, TX, RX and 3.3V pins. Now before connecting the USB to Serial adapter to your computer, press and hold the Sonoff Basic button, and then connect the adapter. If the button is pressed during power on, the ESP8266 inside the Sonoff Basic enters into serial bootloader mode. This means that the device is ready to accept a new firmware over the TX/RX pins.
 
 Now it's time to finally reprogram the device. Hit that upload button and you will be good to go! After the board is running the OpenPLC firmware you need to know what IP address it got on your network. For that, just open the Arduino IDE Serial Monitor and look for the messages that appear.
 
@@ -113,7 +113,7 @@ After programming your Sonoff Basic with OpenPLC's firmware, you now need to add
 
 ![](slavedevices.png)
 
-On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-english characters like ç, é, ó, ñ), select ESP8266 under Device Type (because internally the Sonoff Basic is an ESP8266 board anyway) and type in the Sonoff Basic IP address that you got from the previous step. Everything else should be filled up automatically for you.
+On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-English characters like ç, é, ó, ñ), select ESP8266 under Device Type (because internally the Sonoff Basic is an ESP8266 board anyway) and type in the Sonoff Basic IP address that you got from the previous step. Everything else should be filled up automatically for you.
 
 ![](adddevice.png)
 

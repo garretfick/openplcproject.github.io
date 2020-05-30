@@ -102,6 +102,6 @@ controlling real boards configured as Slave I/O devices. Go to the Getting
 \Started page and follow the instructions to setup one of the supported
 platforms as slave devices. Then, through the web interface, add your slave
 devices on the "Slave Devices" menu. Keep in mind that slave devices are
-attached to address 100 onward (i.e. %IX100.0, %IW100, %QX100.0, and %QW100).
+attached to address 100 onward (i.e. `%IX100.0`, `%IW100`, `%QX100.0`, and `%QW100`).
 
 {% include firstproject.md %}

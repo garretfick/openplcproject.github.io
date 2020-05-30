@@ -5,9 +5,9 @@ redirect_from:
   - /getting-started-linux
 ---
 
-**These instructions are targeted for Debian-based distros (like Ubuntu, Mint, Kali, etc).**
+**These instructions are targeted for Debian-based distributions (like Ubuntu, Mint, Kali, etc).**
 
-The best way to get OpenPLC files into your system is by using git. Usually, git comes pre-installed on most Linux distros. If for some reason you don't have git installed on your system, you can install it by typing:
+The best way to get OpenPLC files into your system is by using git. Usually, git comes preinstalled on most Linux distributions. If for some reason you don't have git installed on your system, you can install it by typing:
 
 ```
 sudo apt-get install git
@@ -57,6 +57,6 @@ real boards configured as Slave I/O devices. Go to the Getting Started page
 and follow the instructions to setup one of the supported platforms as slave
 devices. Then, through the web interface, add your slave devices on the
 "Slave Devices" menu. Keep in mind that slave devices are attached to address
-100 onward (i.e. %IX100.0, %IW100, %QX100.0, and %QW100).
+100 onward (i.e. `%IX100.0`, `%IW100`, `%QX100.0`, and `%QW100`).
 
 {% include firstproject.md %}

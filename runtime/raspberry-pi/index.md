@@ -12,7 +12,7 @@ the most recent Raspbian form the
 install.
 
 The best way to get OpenPLC files into your Raspberry Pi is by using git.
-Usually, git comes pre-installed on Raspbian. If for some reason you don't have
+Usually, git comes preinstalled on Raspbian. If for some reason you don't have
 git installed on your system, you can install it by typing:
 
 ```
@@ -32,6 +32,6 @@ Below you will find the OpenPLC I/O mapping for the Raspberry Pi header. The map
 
 ![](pinout.png)
 
-There is only one analog (PWM-based) output on the Raspberry Pi, and it is used as the an Analog Out (%QW0.0) on the OpenPLC. Also, take note that the first two inputs (%IX0.0 and %IX0.1) have hardware pullups, which means that if you don't connect anything to them, they will both read as TRUE. This is part of the design of the Raspberry Pi boards, and can't be changed by the OpenPLC software. Therefore, the logic on these first two inputs must be reverse.
+There is only one analog (PWM-based) output on the Raspberry Pi, and it is used as the an Analog Out (`%QW0.0`) on the OpenPLC. Also, take note that the first two inputs (%IX0.0 and %IX0.1) have hardware pullups, which means that if you don't connect anything to them, they will both read as TRUE. This is part of the design of the Raspberry Pi boards, and can't be changed by the OpenPLC software. Therefore, the logic on these first two inputs must be reverse.
 
 {% include firstproject.md %}

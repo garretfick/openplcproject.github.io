@@ -88,7 +88,7 @@ web interface, go to Slave Devices on the menu and click on "Add new device".
 
 ​![](slavedevices.png)
 
-On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-english characters like ç, é, ó, ñ), select ESP8266 under Device Type and type in the ESP8266 IP address that you got from the previous step. Everything else should be filled up automatically for you.
+On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-English characters like ç, é, ó, ñ), select ESP8266 under Device Type and type in the ESP8266 IP address that you got from the previous step. Everything else should be filled up automatically for you.
 
 ​![](configure.png)
 

@@ -100,11 +100,11 @@ ladder logic editor. The top part of the screen is reserved for your variables.
 The center part is used for your diagram. So, let's start by adding a few
 variables. Click on the green plus sign, and add three variables:
 
-Name | Class | Type | Location  |
------|-------|------|-----------|
-PB1  | Local | BOOL | %IX0.0    |
-PB2  | Local | BOOL | %IX0.1    |
-LAMP | Local | BOOL | %QX0.0    |
+Name | Class | Type   | Location  |
+-----|-------|--------|-----------|
+PB1  | Local | `BOOL` | `%IX0.0`  |
+PB2  | Local | `BOOL` | `%IX0.1`  |
+LAMP | Local | `BOOL` | `%QX0.0`  |
 
 ![](first-project-variables.png)
 

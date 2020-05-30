@@ -55,7 +55,7 @@ install it natively on Linux (not compatible with ARM devices). All you have
 to do is clone the repository with ScadaBR installer and run the installer
 script:
 
-```
+```sh
 git clone https://github.com/thiagoralves/ScadaBR_Installer.git
 
 cd ScadaBR_Installer
@@ -71,7 +71,7 @@ few minutes and try again. ScadaBR can take a few minutes to load entirely
 the first time it is launched.
 
 This script installs ScadaBR 0.9. If you want to update to ScadaBR 1.0CE,
-run *./update_scadabr.sh* from terminal. Make sure to open ScadaBR at least
+run `./update_scadabr.sh` from terminal. Make sure to open ScadaBR at least
 once before running this script, otherwise you might end up with a corrupted
 installation.
 

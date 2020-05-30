@@ -23,19 +23,19 @@ OpenPLC supports all common Modbus function codes:
 ## Binding Modbus Slave to PLC Addresses
 
 OpenPLC operates as a block for Modbus tables. [PLC address](/reference/plc-addressing) binding (the
-Modus map) is based on the hierarchical address value, the data width,
+Modbus map) is based on the hierarchical address value, the data width,
 and the direction.
 
 ![](slave-overview.svg)
 
 <div class="table-wrapper" markdown="block">
 
-| Modbus Table                     | Usage           | PLC Address      | Modbus Data Address | Data Size | Range  | Access† |
-|----------------------------------|-----------------|------------------|---------------------|-----------|--------|---------|
-| Discrete Output Coils            | Digital Outputs | %QX0.0 - %QX99.7 | 0 - 799             | 1 bit     | 0 or 1 | RW      |
-| Discrete Input Contacts          | Digital Inputs  | %IX0.0 - %IX99.7 | 0 - 799             | 1 bit     | 0 or 1 | R       |
-| Analog Input Registers           | Analog Input    | %IW0 - %IW99     | 0 - 1023            | 16 bits   | 0 - 65535 | R    |
-| Analog Output Holding Registers  | Analog Outputs  | %QW0 - %QW99     | 0 - 1023            | 16 bits   | 0 - 65535 | RW   |
+| Modbus Table                     | Usage           | PLC Address        | Modbus Data Address | Data Size | Range  | Access† |
+|----------------------------------|-----------------|--------------------|---------------------|-----------|--------|---------|
+| Discrete Output Coils            | Digital Outputs | `%QX0.0 - %QX99.7` | 0 - 799             | 1 bit     | 0 or 1 | RW      |
+| Discrete Input Contacts          | Digital Inputs  | `%IX0.0 - %IX99.7` | 0 - 799             | 1 bit     | 0 or 1 | R       |
+| Analog Input Registers           | Analog Input    | `%IW0 - %IW99`     | 0 - 1023            | 16 bits   | 0 - 65535 | R    |
+| Analog Output Holding Registers  | Analog Outputs  | `%QW0 - %QW99`     | 0 - 1023            | 16 bits   | 0 - 65535 | RW   |
 
 </div>
 

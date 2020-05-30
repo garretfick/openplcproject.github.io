@@ -87,6 +87,7 @@ SINT
 Sonoff
 SQRT
 SSID
+startup
 sudo
 TCP
 th

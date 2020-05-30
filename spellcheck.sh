@@ -16,5 +16,5 @@ do
     fi
 done
 
-echo "${NUMBAD} files have spelling errors"
+echo "${NUMBAD} files have spelling errors. If the 'errors' are not true, add to aspell-dict.txt"
 exit ${NUMBAD}

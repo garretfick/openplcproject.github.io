@@ -7,7 +7,7 @@ nav: start
 ## Basics
 
 - [What is a PLC?](basics/what-is-a-plc)
-- [Introduction to Lader Logic](basics/introduction-to-ladder-logic)
+- [Introduction to Ladder Logic](basics/introduction-to-ladder-logic)
 - [Contact](basics/contact)
 - [Coil](basics/coil)
 - [Creating your first project](basics/first-project)

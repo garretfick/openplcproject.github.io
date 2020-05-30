@@ -11,7 +11,7 @@ in mind that when OpenPLC is installed on UniPian, it completely disables EVOK
 and all related services.​
 
 The best way to get OpenPLC files into your UniPi Neuron is by using git.
-Usually, git comes pre-installed on UniPian. If for some reason you don't have
+Usually, git comes preinstalled on UniPian. If for some reason you don't have
 git installed on your system, you can install it by typing:
 
 ```

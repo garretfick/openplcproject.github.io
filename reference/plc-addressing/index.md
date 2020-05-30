@@ -18,7 +18,7 @@ PLC addresses are constructed as a union of 4 ordered parts:
 3. a data size indication
 4. a hierarchical address
 
-Formally, a PLC address can be expressed in Backus Naur Form.
+Formally, a PLC address can be expressed in Backus–Naur Form.
 
 ```
 <plc-address> ::= "%" <storage-class> <data-size> <hierarchical-address>

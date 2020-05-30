@@ -12,7 +12,7 @@ the most recent Raspbian form the
 install.​
 
 The best way to get OpenPLC files into your PiXtend is by using git. Usually,
-git comes pre-installed on Raspbian. If for some reason you don't have git
+git comes preinstalled on Raspbian. If for some reason you don't have git
 installed on your system, you can install it by typing:
 ​
 ```

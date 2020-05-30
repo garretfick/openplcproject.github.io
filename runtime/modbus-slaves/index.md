@@ -26,7 +26,7 @@ Slave Devices on the menu and click on "Add new device".
 ![](/runtime/img/slavedevices.png)
 
 On the new screen that appears, fill out the name for your slave device (it
-can be anything, but just please avoid non-english characters like ç, é, ó, ñ),
+can be anything, but just please avoid non-English characters like ç, é, ó, ñ),
 and then select "Generic Modbus TCP Device" or "Generic Modbus RTU Device"
 under Device Type.
 
@@ -39,7 +39,7 @@ The right side of the page is used to configure the Modbus registers you want
 to read and write. You can define the address of the first register and the
 range, which means how many registers after the first one you want to be
 read/written. These registers will then be mapped to OpenPLC internal
-variables, located at %IX100.0, %QX100.0, and so on...
+variables, located at `%IX100.0`, `%QX100.0`, and so on...
 
 ![](/runtime/img/adddevice.png)
 

@@ -15,7 +15,7 @@ nav: start
 
 ## Standard Function Blocks
 
-- SR Bistable (SR)
+- [SR Bistable (SR)](standard-function-blocks/sr-bistable)
 - RS Bistable (RS)
 - Semaphore (SEMA)
 - Rising Trigger (R_TRIG)

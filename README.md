@@ -13,7 +13,8 @@ site generator.
 1. Run `bundle exec jekyll serve`
 
 You can (and should) run simple some simple tests with `bundle exec rake test`
-to check for common problems.
+to check for common problems. The continuous integration build includes
+additional checks.
 
 ## Deploy
 

@@ -29,7 +29,7 @@ nav: start
 
 ## Additional Function Blocks
 
-- Real Time Clock (RTC)
+- Real Time Clock (`RTC`)
 - Integral
 - Derivative
 - PID
@@ -38,27 +38,27 @@ nav: start
 
 ## Numerical
 
-- Absolute Number (ABS)
-- Square Root (SQRT)
-- Natural Logarithm (LN)
-- Logarithm (LOG)
-- Exponentiation (EXP)
-- Sine (SIN)
-- Cosine (COS)
-- Tangent (TAN)
-- Arc Sine (ASIN)
-- Arc Cosine (ACOS)
-- Arc Tangent (ATAN)
+- Absolute Number (`ABS`)
+- Square Root (`SQRT`)
+- Natural Logarithm (`LN`)
+- Logarithm (`LOG`)
+- Exponentiation (`EXP`)
+- Sine (`SIN`)
+- Cosine (`COS`)
+- Tangent (`TAN`)
+- Arc Sine (`ASIN`)
+- Arc Cosine (`ACOS`)
+- Arc Tangent (`ATAN`)
 
 ## Arithmetic
 
-- Addition (ADD)
-- Multiplication (MUL)
-- Subtraction (SUB)
-- Division (DIV)
-- Remainder (MOD)
-- Exponent (EXPT)
-- Assignment (MOVE)
+- Addition (`ADD`)
+- Multiplication (`MUL`)
+- Subtraction (`SUB`)
+- Division (`DIV`)
+- Remainder (`MOD`)
+- Exponent (`EXPT`)
+- Assignment (`MOVE`)
 
 ## Bit-Shift
 

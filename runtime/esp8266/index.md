@@ -56,7 +56,7 @@ Before uploading the firmware to the ESP8266 board, you will need to insert
 your network parameters (WiFi name and password) in the code. The information
 you need to modify is on the first lines of the code:
 
-![](wifi.webp)
+![](wifi.png)
 
 Substitute "WiFi Name" with your WiFi Network name (SSID) and "WiFi Password"
 with your WiFi password. Then upload the code to your ESP8266 board. Just
@@ -67,7 +67,7 @@ Now that the board is running the OpenPLC firmware you need to know what IP
 address it got on your network. For that, just open the Arduino IDE Serial
 Monitor and look for the messages that appear.
 
-​![](messages.webp)
+​![](messages.png)
 
 With the Serial Terminal open, you should see messages like this:
 
@@ -86,11 +86,11 @@ After programming your ESP8266 with OpenPLC's firmware, you now need to add
 it to the main Runtime. Launch OpenPLC Runtime on your host, log in on the
 web interface, go to Slave Devices on the menu and click on "Add new device".
 
-​![](slavedevices.webp)
+​![](slavedevices.png)
 
-On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-english characters like ç, é, ó, ñ), select ESP8266 under Device Type and type in the ESP8266 IP address that you got from the previous step. Everything else should be filled up automatically for you.
+On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-English characters like ç, é, ó, ñ), select ESP8266 under Device Type and type in the ESP8266 IP address that you got from the previous step. Everything else should be filled up automatically for you.
 
-​![](configure.webp)
+​![](configure.png)
 
 Click on "Save device" and you're good to go! Just start the PLC and your board will be communicating over WiFi with OpenPLC Runtime.
 
@@ -98,8 +98,8 @@ Click on "Save device" and you're good to go! Just start the PLC and your board 
 
 The pin mapping for your ESP8266 depends on its position on the slave devices list. OpenPLC supports multiple slave devices at the same time, and they all add up together on the address space. Below you can see a list of three ESP8266 devices added up together, and the respective address space reserved for them.
 
-​![](pinout.webp)
+​![](pinout.png)
 
 On the device itself, each located variable maps to a corresponding pin. The picture below shows a generic pin mapping on a NodeMCU board (which is the most popular ESP8266 board). Please change "n" with the appropriate starting address for your device on the list (it starts with 100).
 
-​![](nodemcu.webp)
+​![](nodemcu.png)

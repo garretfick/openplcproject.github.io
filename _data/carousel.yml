@@ -1,13 +1,13 @@
 images: 
-    - image: /assets/img/carousel/daughtercards.webp
-    - image: /assets/img/carousel/zumlink.webp
-    - image: /assets/img/carousel/mega.webp
-    - image: /assets/img/carousel/pixtend.webp
-    - image: /assets/img/carousel/raspberrypi.webp
-    - image: /assets/img/carousel/small.webp
-    - image: /assets/img/carousel/zumlink.webp
-    - image: /assets/img/carousel/zumiq.webp
-    - image: /assets/img/carousel/unipi.webp
-    - image: /assets/img/carousel/modbusio.webp
-    - image: /assets/img/carousel/arduino.webp
+    - image: /assets/img/carousel/daughtercards.png
+    - image: /assets/img/carousel/zumlink.png
+    - image: /assets/img/carousel/mega.png
+    - image: /assets/img/carousel/pixtend.png
+    - image: /assets/img/carousel/raspberrypi.png
+    - image: /assets/img/carousel/small.png
+    - image: /assets/img/carousel/zumlink.png
+    - image: /assets/img/carousel/zumiq.png
+    - image: /assets/img/carousel/unipi.png
+    - image: /assets/img/carousel/modbusio.png
+    - image: /assets/img/carousel/arduino.png
     

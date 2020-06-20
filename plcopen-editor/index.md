@@ -6,7 +6,7 @@ nav: start
 
 OpenPLC Editor is a software that lets you write PLC programs for the OpenPLC runtime. The programs are written according to the IEC 61131-3 standard. The editor is very simple to use and supports all five languages defined in the standard: Ladder Logic (LD), Function Block Diagram (FBD), Instruction List (IL), Structured Text (ST), and Sequential Function Chart (SFC).
 
-![](editor.webp)
+![](editor.png)
 
 <div class="image-links">
     <div class="row">

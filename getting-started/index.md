@@ -17,15 +17,15 @@ on your system.
 
 <div class="pure-g">
     <div class="pure-u-1 pure-u-md-1-3">
-      <a href="/runtime"><img src="runtime.webp" alt=""/></a>
+      <a href="/runtime"><img src="runtime.png" alt=""/></a>
       <div style="text-align:center">Runtime</div>
     </div>
     <div class="pure-u-1 pure-u-md-1-3">
-      <a href="/plcopen-editor"><img src="editor.webp" alt=""/></a>
+      <a href="/plcopen-editor"><img src="editor.png" alt=""/></a>
       <div style="text-align:center">Editor</div>
     </div>
     <div class="pure-u-1 pure-u-md-1-3">
-      <a href="/reference/scadabr"><img src="scadabr.webp" alt=""/></a>
+      <a href="/reference/scadabr"><img src="scadabr.png" alt=""/></a>
       <div style="text-align:center">HMI Builder</div>
     </div>
 </div>

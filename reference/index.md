@@ -16,7 +16,7 @@ nav: start
 ## Standard Function Blocks
 
 - [SR Bistable (SR)](standard-function-blocks/sr-bistable)
-- RS Bistable (RS)
+- RS Bistable (RS)(standard-function-blocks/rs-bistable)
 - Semaphore (SEMA)
 - Rising Trigger (R_TRIG)
 - Falling Trigger (F_TRIG)
@@ -24,7 +24,7 @@ nav: start
 - Counter Down (CTD)
 - Counter Up-Down (CTUD)
 - Timer Pulse (TP)
-- Timer On (TON)
+- Timer On (TON)(standard-function-blocks/timer-on)
 - Timer Off (TOF)
 
 ## Additional Function Blocks

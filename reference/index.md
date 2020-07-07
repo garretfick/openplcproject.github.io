@@ -20,12 +20,12 @@ nav: start
 - Semaphore (SEMA)
 - Rising Trigger (R_TRIG)
 - Falling Trigger (F_TRIG)
-- Counter Up (CTU)
-- Counter Down (CTD)
+- [Counter Up (CTU)](standard-function-blocks/counter-up)
+- [Counter Down (CTD)](standard-function-blocks/counter-down)
 - Counter Up-Down (CTUD)
 - Timer Pulse (TP)
 - [Timer On (TON)](standard-function-blocks/timer-on)
-- Timer Off (TOF)
+- [Timer Off (TOF)](standard-function-blocks/timer-off)
 
 ## Additional Function Blocks
 

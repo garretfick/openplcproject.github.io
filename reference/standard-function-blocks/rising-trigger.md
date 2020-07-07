@@ -7,4 +7,4 @@ title: Rising Trigger
 
 This function block is a rising edge detector. 
 The output `Q` is `FALSE` when the input `CLK` is `FALSE`. 
-As soon as `CLK` is set to `TRUE`, `Q` becomes `TRUE`.
+As soon as `CLK` is set to `TRUE`, `Q` is activated to `TRUE` for a single pulse.

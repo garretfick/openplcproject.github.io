@@ -34,8 +34,8 @@ and the direction.
 |----------------------------------|-----------------|--------------------|---------------------|-----------|--------|---------|
 | Discrete Output Coils            | Digital Outputs | `%QX0.0 - %QX99.7` | 0 - 799             | 1 bit     | 0 or 1 | RW      |
 | Discrete Input Contacts          | Digital Inputs  | `%IX0.0 - %IX99.7` | 0 - 799             | 1 bit     | 0 or 1 | R       |
-| Analog Input Registers           | Analog Input    | `%IW0 - %IW99`     | 0 - 1023            | 16 bits   | 0 - 65535 | R    |
-| Analog Output Holding Registers  | Analog Outputs  | `%QW0 - %QW99`     | 0 - 1023            | 16 bits   | 0 - 65535 | RW   |
+| Analog Input Registers           | Analog Input    | `%IW0 - %IW1023`     | 0 - 1023            | 16 bits   | 0 - 65535 | R    |
+| Analog Output Holding Registers  | Analog Outputs  | `%QW0 - %QW1023`     | 0 - 1023            | 16 bits   | 0 - 65535 | RW   |
 
 </div>
 

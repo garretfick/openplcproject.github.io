@@ -18,14 +18,6 @@ OpenPLC Editor is a software that lets you write PLC programs for the OpenPLC ru
                 </a>
             </div>
         </div>
-        <div class="six columns">
-            <div class="download-link">
-                <a href="https://github.com/thiagoralves/OpenPLC_Files/blob/master/Software/OpenPLC_Editor%20v1.0%20-%20Linux.zip?raw=true">
-                <img src="/assets/img/download.png" alt=""/>
-                <span>OpenPLC Editor v1.0 for Linux</span>
-                </a>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -35,9 +27,12 @@ Download, unzip, and double-click on the OpenPLC Editor shortcut.
 
 **Instructions for Linux**
 
-Download, unzip, and run on terminal:
+On Linux you can get the latest version of the OpenPLC Editor straight from sources. Just open terminal and type:
 
 ```
+sudo apt-get install git
+git clone https://github.com/thiagoralves/OpenPLC_Editor
+cd OpenPLC_Editor
 ./install.sh
 ```
 
@@ -45,4 +40,4 @@ Once the installation finishes, a shortcut for OpenPLC Editor will be created on
 
 **Commit hash**
 
-The installer was created using source code from OpenPLC Editor repository in April 17, 2019.
+The Windows installer was created using source code from OpenPLC Editor repository in April 17, 2019.

@@ -10,3 +10,6 @@ The installation process will take a while (up to 1 hour depending on your
 system). Meanwhile, grab a [insert your favorite beverage here] and relax!
 Once OpenPLC is installed, just reboot your device and it will start
 automatically after boot.
+
+{% include tip.html content="To use in-development capabilities, checkout the
+`development` branch (`git checkout development`) prior to running `install.sh`." %}

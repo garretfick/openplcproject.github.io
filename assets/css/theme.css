@@ -57,6 +57,10 @@ code {
   border: none;
 }
 
+.admonitionblock td p {
+  margin: 0;
+}
+
 .important .title, .tip .title {
   min-width: 6em;
   border-right: 1px solid #252525;
@@ -157,7 +161,6 @@ article img {
 }
 
 .download-link img {
-  /*margin: 0;*/
   width: 100px;
 }
 
@@ -357,10 +360,6 @@ footer hr {
   width: 100%;
   margin-top: 50px;
 }
-
-/*.carousel__track {
-    left: 1000px;
-}*/
 
 .carousel__activator {
   visibility: hidden;

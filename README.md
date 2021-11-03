@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/openplcproject/openplcproject.github.io.svg?branch=master)](https://travis-ci.com/openplcproject/openplcproject.github.io)
 
 This project is the source for the OpenPLC Project's website, available
-at openplcproject.com. The site is built using the fantastic Jekyll static
+at openplcproject.com. We built the site using the fantastic Jekyll static
 site generator.
 
 ## Development
@@ -12,7 +12,7 @@ site generator.
 1. Run `bundle install`
 1. Run `bundle exec jekyll serve`
 
-You can (and should) run simple some simple tests with `bundle exec rake test`
+You can (and should) run some simple tests with `bundle exec rake test`
 to check for common problems. The continuous integration build includes
 additional checks.
 

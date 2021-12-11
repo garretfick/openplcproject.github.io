@@ -5,7 +5,7 @@ title: Real Time Clock
 
 ## Introduction
 
-![{{ page.title }}]({{ page.url | | replace: ".html", ".png"}}) 
+![{{ page.title }}]({{ page.url | replace: ".html", ".png"}}) 
 
 `(BOOL:IN, DT:PDT) => (BOOL:Q, DT:CDT)`
 

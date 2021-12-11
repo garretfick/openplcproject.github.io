@@ -5,7 +5,7 @@ title: Semaphore
 
 ## Introduction
 
-![{{ page.title }}]({{ page.url | | replace: ".html", ".png"}}) 
+![{{ page.title }}]({{ page.url | replace: ".html", ".png"}}) 
 
 `( BOOL:CLAIM, BOOL:RELEASE ) => ( BOOL:BUSY )`
 

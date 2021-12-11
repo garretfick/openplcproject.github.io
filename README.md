@@ -22,5 +22,9 @@ The GitHub repository hosted on openplcproject/openplcproject.github.io is confi
 to automatically publish changes to the master branch. There is nothing you
 need to do.
 
-Builds automatically run a TravisCI build. The automated build checks for valid HTML
-and other common problems.
+Builds published to GitHub automatically run a test build. The automated build
+checks for valid HTML and other common problems. The test currently does not
+run the spell check that can be run separately.
+
+The full set of tests that run on commit can be run locally with
+[`act`](https://github.com/nektos/act).

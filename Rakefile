@@ -56,6 +56,6 @@ task :spellcheck do
 
   if num_with_errors > 0
     puts("Num files with errors:" + num_with_errors.to_s + "\n")
-    raise "One or more files contains an misspelling. Add false positives to aspell-dict.txt""
+    raise "One or more files contains an misspelling. Add false positives to aspell-dict.txt"
   end
 end

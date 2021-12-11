@@ -16,10 +16,10 @@ only controller to provide the entire source code.
 
 ## What is OpenPLC?
 
-OpenPLC is an open-source Programmable Logic Controller (wiki) that is based
-on an easy to use software. The OpenPLC project was created in accordance with
-the IEC 61131-3 standard, which defines the basic software architecture and
-programming languages for PLCs.
+OpenPLC is an open-source [Programmable Logic Controller](https://en.wikipedia.org/wiki/Programmable_logic_controller)
+that is based on an easy to use software. The OpenPLC project was created in
+accordance with the IEC 61131-3 standard, which defines the basic
+software architecture and programming languages for PLCs.
 
 OpenPLC is mainly used on industrial and home automation, internet of things
 and SCADA research. You can check OpenPLC in action on the short video below.

@@ -8,7 +8,7 @@ redirect_from:
 The other fundamental element of a ladder diagram is the "coil". A
 coil is similar to a relay coil, and therefore has only two states: energized or de-energized.
 
-![](coil.webp)
+![](coil.png)
 
 When there is a path of **true** instructions preceding the coil instruction, the
 coil will be energized, and therefore will be also true. When a coil instruction is true, it

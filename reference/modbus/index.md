@@ -13,10 +13,10 @@ Modbus has mainly 4 functions, each one responsible for reading or writing to
 a specific I/O. The I/O address space on the OpenPLC is mapped to the Modbus
 address space according to the table below:
 
-![](locations.webp)
+![](locations.png)
 
 OpenPLC also provides a separated address space for memory variables with
 support for 16, 32 and 64 bit variables. The memory address space is detailed
 on the table below:
 
-![](locations-2.webp)
+![](locations-2.png)

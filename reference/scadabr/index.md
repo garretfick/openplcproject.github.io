@@ -28,25 +28,25 @@ ScadaBR Installation Steps:
    [from here](https://drive.google.com/file/d/1gEOZmN9_Nt5shXy4iYS1z_EMxB4r0Kzh/view?usp=sharing)
 3. Install VirtualBox by running the installer downloaded on step 1.
 4. Run VirtualBox and import ScadaBR image by clicking on File -> Import Appliance
-   ![](import-1.webp)
+   ![](import-1.png)
 5. Click on the folder icon and select the ScadaBR.ova file downloaded on step 2.
-   ![](import-2.webp)
+   ![](import-2.png)
 6. Click on Next and then Import to load ScadaBR image into VirtualBox.
 7. Before starting ScadaBR, you need to configure the network of your virtual
    machine so that ScadaBR can see the PLCs connected to your network. On
    VirtualBox main window, right-click on ScadaBR and select settings
-   ![](import-3.webp)
+   ![](import-3.png)
 8. Go to Network and at the option "Attached to:" make sure that Bridged
    Adapter is selected. Then on "Name:" choose your network adapter.
    VirtualBox will replicate your network adapter for the virtual machine.
    Therefore, make sure that the adapter you select is actually the network
    adapter that is connected to your network. Once you're done, click on OK
    to close this window.
-   ![](import-4.webp)
+   ![](import-4.png)
 9. Now you're good to go! On the main VirtualBox screen click on Start to
    launch ScadaBR. It might take a few seconds to load. Once it is finally
    loaded, you will see this message on the screen:
-   ![](import-5.webp)
+   ![](import-5.png)
 
 ## Installing ScadaBR on Linux Natively
 
@@ -55,7 +55,7 @@ install it natively on Linux (not compatible with ARM devices). All you have
 to do is clone the repository with ScadaBR installer and run the installer
 script:
 
-```
+```sh
 git clone https://github.com/thiagoralves/ScadaBR_Installer.git
 
 cd ScadaBR_Installer
@@ -71,7 +71,7 @@ few minutes and try again. ScadaBR can take a few minutes to load entirely
 the first time it is launched.
 
 This script installs ScadaBR 0.9. If you want to update to ScadaBR 1.0CE,
-run *./update_scadabr.sh* from terminal. Make sure to open ScadaBR at least
+run `./update_scadabr.sh` from terminal. Make sure to open ScadaBR at least
 once before running this script, otherwise you might end up with a corrupted
 installation.
 
@@ -87,7 +87,7 @@ login for the first time:
 User id: admin
 Password: admin
 
-![](login.webp)
+![](login.png)
 
 ScadaBR offers many features that you may find useful. They are all listed on
 the top menu, right below the ScadaBR logo. However, if you want to just stick

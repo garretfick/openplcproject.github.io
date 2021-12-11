@@ -76,7 +76,7 @@ Finally, download the OpenPLC firmware for the Sonoff Basic, unzip it and open i
 
 Before uploading the firmware to the ESP8266 board, you will need to insert your network parameters (WiFi name and password) in the code. The information you need to modify is on the first lines of the code:
 
-![](wifi.webp)
+![](wifi.png)
 
 Substitute "WiFi Name" with your WiFi Network name (SSID) and "WiFi Password" with your WiFi password.
 
@@ -84,17 +84,17 @@ Now that you have your firmware ready, you need to prepare your Sonoff Basic to 
 
 Now it's time to pop the Sonoff Basic open!
 
-![](hwopen.webp)
+![](hwopen.png)
 
 You will need to solder a pin header on the five pins highlighted on the picture above. These pins are the ones used to connect the Sonoff Basic to your computer. After the pin header is soldered, you just need to hook it up to your USB to Serial adapter as shown here:
 
-![](pinnames.webp)
+![](pinnames.png)
 
-You don't need to connect the GPIO14 pin to reprogram the Sonoff Basic, just the GND, TX, RX and 3.3V pins. Now before connecting the USB to Serial adapter to your computer, press and hold the Sonnof Basic button, and then connect the adapter. If the button is pressed during power on, the ESP8266 inside the Sonoff Basic enters into serial bootloader mode. This means that the device is ready to accept a new firmware over the TX/RX pins.
+You don't need to connect the GPIO14 pin to reprogram the Sonoff Basic, just the GND, TX, RX and 3.3V pins. Now before connecting the USB to Serial adapter to your computer, press and hold the Sonoff Basic button, and then connect the adapter. If the button is pressed during power on, the ESP8266 inside the Sonoff Basic enters into serial bootloader mode. This means that the device is ready to accept a new firmware over the TX/RX pins.
 
 Now it's time to finally reprogram the device. Hit that upload button and you will be good to go! After the board is running the OpenPLC firmware you need to know what IP address it got on your network. For that, just open the Arduino IDE Serial Monitor and look for the messages that appear.
 
-![](messages.webp)
+![](messages.png)
 
 With the Serial Terminal open, you should see messages like this:
 
@@ -111,11 +111,11 @@ Write down the IP address on that message because you will need to use it on the
 
 After programming your Sonoff Basic with OpenPLC's firmware, you now need to add it to the main Runtime. Launch OpenPLC Runtime on your host, log in on the web interface, go to Slave Devices on the menu and click on "Add new device".
 
-![](slavedevices.webp)
+![](slavedevices.png)
 
-On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-english characters like ç, é, ó, ñ), select ESP8266 under Device Type (because internally the Sonoff Basic is an ESP8266 board anyway) and type in the Sonoff Basic IP address that you got from the previous step. Everything else should be filled up automatically for you.
+On the new screen that appears, fill out the name for your slave device (it can be anything, but just please avoid non-English characters like ç, é, ó, ñ), select ESP8266 under Device Type (because internally the Sonoff Basic is an ESP8266 board anyway) and type in the Sonoff Basic IP address that you got from the previous step. Everything else should be filled up automatically for you.
 
-![](adddevice.webp)
+![](adddevice.png)
 
 Click on "Save device" and you're good to go! Just start the PLC and your device will be communicating over WiFi with OpenPLC Runtime.
 
@@ -123,7 +123,7 @@ Click on "Save device" and you're good to go! Just start the PLC and your device
 
 The pin mapping for your Sonoff Basic depends on its position on the slave devices list. OpenPLC supports multiple slave devices at the same time, and they all add up together on the address space. Below you can see a list of three Sonoff Basic devices added up together, and the respective address space reserved for them.
 
-![](pinout.webp)
+![](pinout.png)
 
 On the device itself, each located variable maps to a corresponding pin. Below you can find a generic pin mapping. Please change "n" with the appropriate starting address for your device on the list (it starts with 100).
 

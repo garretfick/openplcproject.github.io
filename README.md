@@ -12,7 +12,7 @@ site generator.
 1. Run `bundle install`
 1. Run `bundle exec jekyll serve`
 
-You can (and should) run some simple tests with `bundle exec rake test`
+You can (and should) run some simple tests with `bundle exec rake checkhtml`
 to check for common problems. The continuous integration build includes
 additional checks.
 
@@ -25,6 +25,3 @@ need to do.
 Builds published to GitHub automatically run a test build. The automated build
 checks for valid HTML and other common problems. The test currently does not
 run the spell check that can be run separately.
-
-The full set of tests that run on commit can be run locally with
-[`act`](https://github.com/nektos/act).

@@ -44,10 +44,17 @@ task :spellcheck do
   last_error = ""
   files = Dir['_site/**/*.html']
   for file_name in files do
-    misspelled = `cat #{file_name} | aspell --list -H --html-skip=script --add-html-skip=style --add-html-skip=pre --add-html-skip=code --extra-dicts=./aspell-dict.rws | wc -l`.split.first
-    puts(misspelled)
+    misspelled = `cat #{file_name} | aspell --list -H --html-skip=script --add-html-skip=style --add-html-skip=pre --add-html-skip=code --extra-dicts=./aspell-dict.rws | sed '/^$/d'`
+    if misspelled.length > 0
+      puts("Error: " + file_name + " words: " + misspelled)
+      num_with_errors += 1
+    else
+      puts("OK: " + file_name)
+    end
   end
 
-  if num_with_erros > 0
+  if num_with_errors > 0
+    puts("Num files with errors:" + num_with_errors.to_s + "\n")
+    raise "One or more files contains an misspelling."
   end
 end

@@ -39,6 +39,7 @@ end
 
 task :spellcheck do
   sh "bundle exec jekyll build"
+  sh "aspell --lang=en create master ./aspell-dict.rws < ./aspell-dict.txt"
 
   num_with_errors = 0
   last_error = ""
@@ -55,6 +56,6 @@ task :spellcheck do
 
   if num_with_errors > 0
     puts("Num files with errors:" + num_with_errors.to_s + "\n")
-    raise "One or more files contains an misspelling."
+    raise "One or more files contains an misspelling. Add false positives to aspell-dict.txt""
   end
 end

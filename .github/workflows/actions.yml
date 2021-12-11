@@ -15,5 +15,4 @@ jobs:
     - run: sudo apt-get update -y && sudo apt-get -y install aspell aspell-en locales
     - run: echo "en_US UTF-8" | sudo tee -a /etc/locale.gen
     - run: sudo locale-gen en_US.UTF-8
-    - run: export LANG=en_US.UTF-8 && export LANGUAGE=en_US:en && export LC_ALL=en_US.UTF-8 && bundle exec rake test
-    - run: bundle exec rake spellcheck
+    - run: export LANG=en_US.UTF-8 && export LANGUAGE=en_US:en && export LC_ALL=en_US.UTF-8 && bundle exec rake spellcheck

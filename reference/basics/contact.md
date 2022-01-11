@@ -14,7 +14,7 @@ on (as in examine the input to see if it is physically on). This means that
 an input signal is needed to be present on the PLC input for the contact symbol to 
 turn on. When the physical input is on, we can say that the contact instruction is true.
 
-![](contact.webp)
+![](contact.png)
 
 A variation of the contact instruction is the negated (or closed) contact. The negated 
 contact is sometimes also called examine if off (as in examine the input to see if it is 

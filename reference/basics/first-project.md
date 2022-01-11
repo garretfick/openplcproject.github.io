@@ -18,7 +18,7 @@ Before you ask, if you're running OpenPLC in one of those industrial boards
 Lamp instead. It will work the same. To start, wire your circuit just like
 this:
 
-![](first-project-wiring.webp)
+![](first-project-wiring.png)
 
 **Important Observations:**
 
@@ -42,7 +42,7 @@ To start creating your program, first you need to
 OpenPLC Editor, you will need to create a new project. Click on File -> New to
 start creating your project.
 
-![](first-project-new-project.webp)
+![](first-project-new-project.png)
 
 A save dialog will appear to let you choose where you want to store your
 project. OpenPLC Editor projects are actually folders instead of a single
@@ -66,7 +66,7 @@ Therefore, just fill in the name for your program, make sure that the POU Type
 is "program" and that the Language is "LD". Also, keep in mind that the name
 of the program cannot contain spaces or special characters.
 
-![](first-project-new-pou.webp)
+![](first-project-new-pou.png)
 
 When you create a new program, OpenPLC Editor automatically creates a
 configuration, a resource, a task, and an instance for you. Those items tell
@@ -74,7 +74,7 @@ OpenPLC what to do with your program (i.e. when to call a function, how to
 operate cyclically, etc). You can edit these items by double-clicking on Res0
 on the left panel.
 
-![](first-project-panel.webp)
+![](first-project-panel.png)
 
 The main window will display a global variable input field at the top (that
 allows you to create global variables for your program), a Tasks window and
@@ -92,7 +92,7 @@ as you want. However, keep in mind that if you choose a very low cyclic time
 device might not be able to run your program properly. A safe number for all
 platforms is usually 50ms.
 
-![](first-project-config.webp)
+![](first-project-config.png)
 
 Now that your project if finally created, you can start to draw the ladder
 logic diagram. Click on the name of your program on the left panel to open the
@@ -100,24 +100,24 @@ ladder logic editor. The top part of the screen is reserved for your variables.
 The center part is used for your diagram. So, let's start by adding a few
 variables. Click on the green plus sign, and add three variables:
 
-Name | Class | Type | Location  |
------|-------|------|-----------|
-PB1  | Local | BOOL | %IX0.0    |
-PB2  | Local | BOOL | %IX0.1    |
-LAMP | Local | BOOL | %QX0.0    |
+Name | Class | Type   | Location  |
+-----|-------|--------|-----------|
+PB1  | Local | `BOOL` | `%IX0.0`  |
+PB2  | Local | `BOOL` | `%IX0.1`  |
+LAMP | Local | `BOOL` | `%QX0.0`  |
 
-![](first-project-variables.webp)
+![](first-project-variables.png)
 
 What we want to achieve with this program is that whenever PB1 is pressed,
 the LAMP turns on, and remains on until PB2 is pressed. This is achieved by a
 simple ladder logic latch circuit like this:
 
-![](first-project-circuit.webp)
+![](first-project-circuit.png)
 
 To create this circuit on the editor, start by adding a left power rail by
 clicking on the power rail icon on the toolbar.
 
-![](first-project-rail-1.webp)
+![](first-project-rail-1.png)
 
 Adjust the left power rail pin count to 2 and stretch it a little bit so it
 can fit both rungs comfortably. Then add a contact by clicking on the contact
@@ -125,7 +125,7 @@ button on the toolbar or by right clicking on the blank editor window and
 selecting Add->Contact. On the window that appears, under the "Variable"
 parameter, select PB1 to associate your new contact with the variable PB1.
 
-![](first-project-rail-1-properties.webp)
+![](first-project-rail-1-properties.png)
 
 Repeat the process to add two more contacts, one associated with PB2 and
 another associated with LED. For the PB2 contact, select **Negated** as the
@@ -134,7 +134,7 @@ by right clicking on the blank editor window and selecting Add->coil. Associate
 your new coil with the LED variable, and add a right power rail to close the
 circuit. Position the components in place so that they look like this picture:
 
-![](first-project-items.webp)
+![](first-project-items.png)
 
 The final step is to connect all the components by dragging their extremities
 to form a line. Connect the left side of PB1 and LED contacts with the left
@@ -143,7 +143,7 @@ the LED coil, and the right side of the LED coil with the right power rail.
 Draw the parallel LED contact circuit by connecting the right side of the LED
 contact with PB2. Your final project should look like this:
 
-![](first-project-complete-schematic.webp)
+![](first-project-complete-schematic.png)
 
 This circuit initially has the LED powered off. When you press PB1 even for a
 small instant, the circuit turns the LED on (given that PB2 is not pressed
@@ -157,7 +157,7 @@ Now that your project is created it is a good time to test it before uploading
 it to the OpenPLC Runtime. You can simulate the behavior of your program by
 clicking on **Start PLC Simulation** on the tool bar
 
-![](first-project-simulation.webp)
+![](first-project-simulation.png)
 
 When you click on that button your project is compiled using a similar process
 to the OpenPLC Runtime. If there are any errors on your program, the
@@ -166,7 +166,7 @@ panel at the bottom of the screen. If the compilation succeeds, OpenPLC Editor
 will then start running your code. To view your code running interactively,
 click on Debug instance on the left panel:
 
-![](first-project-inspect.webp)
+![](first-project-inspect.png)
 
 This will open a new window where you can see the electrical flow of your
 program. Lines in <span style="color: green">**green**</span> are activated, where lines

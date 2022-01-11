@@ -11,7 +11,7 @@ in mind that when OpenPLC is installed on UniPian, it completely disables EVOK
 and all related services.​
 
 The best way to get OpenPLC files into your UniPi Neuron is by using git.
-Usually, git comes pre-installed on UniPian. If for some reason you don't have
+Usually, git comes preinstalled on UniPian. If for some reason you don't have
 git installed on your system, you can install it by typing:
 
 ```
@@ -33,13 +33,13 @@ while the driver is applied. Please make sure you have selected the "Neuron"
 driver, and not "UniPi v1.1". The UniPi v1.1 driver is for the old UniPi
 Industrial Board and won't work with the Neuron.
 
-![](/runtime/img/selecthw.webp)
+![](/runtime/img/selecthw.png)
 
 Given that there are many different types of Neuron PLCs, the OpenPLC Neuron
 driver scans the hardware looking for I/Os when it is started. Once the scan
 is completed, the driver displays a log on the Dashboard showing all I/Os
 found and the respective mapping to OpenPLC located variables:
 
-![](pinout.webp)
+![](pinout.png)
 
 {% include firstproject.md %}

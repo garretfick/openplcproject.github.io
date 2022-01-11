@@ -12,7 +12,7 @@ the most recent Raspbian form the
 install.​
 
 The best way to get OpenPLC files into your UniPi is by using git. Usually,
-git comes pre-installed on Raspbian. If for some reason you don't have git
+git comes preinstalled on Raspbian. If for some reason you don't have git
 installed on your system, you can install it by typing:
 ​
 ```
@@ -47,6 +47,6 @@ while the driver is applied.
 Below you will find the OpenPLC I/O mapping for the UniPi board. The mapping
 should be the same across all the different board revisions.
 
-![](pinout.webp)
+![](pinout.png)
 
 {% include firstproject.md %}

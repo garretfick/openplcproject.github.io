@@ -11,7 +11,6 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     
     - run: bundle exec rake checkhtml
-    #- run: bundle exec ruby ./html5validate.rb
     - run: sudo apt-get update -y && sudo apt-get -y install aspell aspell-en locales
     - run: echo "en_US UTF-8" | sudo tee -a /etc/locale.gen
     - run: sudo locale-gen en_US.UTF-8
